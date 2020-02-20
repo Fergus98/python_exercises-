@@ -1,5 +1,6 @@
 def getBert(string):
     newstr=(string.lower()).split("bert")
-    if len(ting) > 2:
-        return "".join(ting[1:-1])[::-1]
-    else: return ""
+    if len(newstr) > 2:
+        return "".join(newstr[1:-1])[::-1]
+    else: 
+        return ""
